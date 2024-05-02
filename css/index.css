@@ -1,0 +1,33 @@
+.aboutImg {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+article {
+    box-shadow: 0px 0px 10px #DC4C94;
+    padding: 5px;
+    border-radius: 5px;
+    color: var(--text-color);
+    margin: 10px;
+    background-color: var(--bg-color);
+}
+
+article img {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+@media (max-width: 800px) {
+    .aboutImg{
+        width: 40vw;
+        height: 40vw;
+    }
+}
+@media (max-width: 500px) {
+    .aboutImg{
+        width: 200px;
+        height: 200px;
+    }
+}
